@@ -1066,51 +1066,7 @@ K-SAT Model. <em>Theoretical Computer Science</em>, 384(1-3),
 <em>Complexity of Computer Computations</em> (pp. 85-103). Plenum
 Press.</p></li>
 </ol>
-<h2 id="code-repository">Code Repository</h2>
-<p>The complete working implementation is available in Python:</p>
-<h3 id="core-files">Core Files</h3>
-<ul>
-<li><strong><code>casimir_sat.py</code></strong> - Main solver with full
-Casimir-SAT implementation</li>
-<li><strong><code>demo.py</code></strong> - Non-interactive
-demonstration with detailed output</li>
-<li><strong><code>test_easy.py</code></strong> - Simple test cases for
-debugging</li>
-<li><strong><code>BLOG.md</code></strong> - This manuscript</li>
-</ul>
-<h3 id="quick-start">Quick Start</h3>
-<div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Interactive demonstration</span></span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> casimir_sat.py <span class="at">--demo</span></span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Performance benchmarks</span></span>
-<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> casimir_sat.py <span class="at">--benchmark</span></span>
-<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Non-interactive demo (for blog examples)</span></span>
-<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> demo.py</span>
-<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Simple test case</span></span>
-<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> test_easy.py</span></code></pre></div>
-<h3 id="dependencies">Dependencies</h3>
-<div class="sourceCode" id="cb16"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install numpy matplotlib</span></code></pre></div>
-<h3 id="example-usage">Example Usage</h3>
-<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> casimir_sat <span class="im">import</span> create_random_3sat, CasimirSolver</span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a random SAT instance</span></span>
-<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>instance <span class="op">=</span> create_random_3sat(<span class="dv">20</span>, <span class="fl">3.5</span>)</span>
-<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Solve using Casimir dynamics</span></span>
-<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>solver <span class="op">=</span> CasimirSolver(instance)</span>
-<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>success, steps <span class="op">=</span> solver.solve(max_steps<span class="op">=</span><span class="dv">1000</span>)</span>
-<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> success:</span>
-<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>    assignment <span class="op">=</span> solver.get_assignment()</span>
-<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Solution found in </span><span class="sc">{</span>steps<span class="sc">}</span><span class="ss"> steps: </span><span class="sc">{</span>assignment<span class="sc">}</span><span class="ss">&quot;</span>)</span>
-<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
-<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;No solution found&quot;</span>)</span></code></pre></div>
-<hr />
-<p><em>Correspondence regarding implementation details, theoretical
-extensions, or collaboration opportunities is welcome.</em></p>
-<hr />
+
 <h2 id="references-and-further-reading">References and Further
 Reading</h2>
 <ol type="1">
