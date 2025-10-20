@@ -37,6 +37,3 @@ This blog is ready for deployment on GitHub Pages or any static hosting service.
 
 CC BY 4.0 - Feel free to share and adapt with attribution.
 
----
-
-*Generated with [Claude Code](https://claude.com/claude-code)*
