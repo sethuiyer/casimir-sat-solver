@@ -15,3 +15,18 @@ It’s a new way of thinking about computation as a physical process. The integr
 CC BY 4.0 - Feel free to share and adapt with attribution. 
 Your attributions and citations keeps me motivated to do more research like this.
 
+## Citation
+
+This work is available on Zenodo. You can cite all versions using:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17394164.svg)](https://doi.org/10.5281/zenodo.17394164)
+
+```bibtex
+@article{iyer2025sat,
+  title={Solving SAT with Quantum Vacuum Dynamics: A Physics-Inspired Approach},
+  author={Iyer, Sethu},
+  year={2025},
+  doi={10.5281/zenodo.17394164}
+}
+```
+
