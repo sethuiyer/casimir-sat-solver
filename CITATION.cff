@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+authors:
+- family-names: Iyer
+  given-names: Sethu
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "Solving SAT with Quantum Vacuum Dynamics: A Physics-Inspired Approach"
+abstract: "This paper introduces a radical reimagining of SAT solving through the lens of quantum vacuum fluctuations and the Casimir effect. We present a physics-inspired approach where partial variable assignments are treated as physical microstates in an energy landscape, with 'almost-satisfying' configurations experiencing attractive Casimir-like forces that cause coagulation into stable solution clusters."
+version: 1.0.0
+date-released: 2025-10-15
+url: "https://github.com/sethuiyer/casimir-sat"
+repository-code: "https://github.com/sethuiyer/casimir-sat"
+license: CC-BY-4.0
+keywords:
+- SAT solving
+- Quantum physics
+- Casimir effect
+- Computational complexity
+- Physics-inspired algorithms
+- NP-complete problems
+type: article
+publisher:
+  name: GitHub
+  address: https://github.com/sethuiyer
+preferred-citation:
+  type: article
+  authors:
+  - family-names: Iyer
+    given-names: Sethu
+  title: "Solving SAT with Quantum Vacuum Dynamics: A Physics-Inspired Approach"
+  journal: arXiv preprint
+  year: 2025
+  month: October
+  url: https://github.com/sethuiyer/casimir-sat
