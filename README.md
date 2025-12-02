@@ -4,6 +4,9 @@ A physics-inspired approach to SAT solving through quantum vacuum fluctuations a
 
 Medium Blog Post: https://medium.com/@sethuiyer/solving-sat-with-quantum-vacuum-dynamics-fa07b9cbcc5e
 
+**NEW**: SAT 2024 benchmark released. https://huggingface.co/datasets/sethuiyer/navokoj_sat_2024
+**Reproduce the benchmark**: https://navokoj.shunyabar.foo/docs/ (beta API key available till June 2026)
+
 ## About This Blog
 
 This blog presents a radical reimagining of SAT solving through the lens of quantum vacuum fluctuations and the Casimir effect. We explore how partial variable assignments can be treated as physical microstates in an energy landscape, with "almost-satisfying" configurations experiencing attractive Casimir-like forces that cause coagulation into stable solution clusters.
