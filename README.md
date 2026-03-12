@@ -7,6 +7,8 @@ Medium Blog Post: https://medium.com/@sethuiyer/solving-sat-with-quantum-vacuum-
 **NEW**: SAT 2024 benchmark released. https://huggingface.co/datasets/sethuiyer/navokoj_sat_2024
 **Reproduce the benchmark**: https://navokoj.shunyabar.foo/docs/ (beta API key available till June 2026)
 
+Looking for a industry scale, fast and accurate maxSAT approximator? Checkout https://github.com/sethuiyer/NitroSAT
+
 ## About This Blog
 
 This blog presents a radical reimagining of SAT solving through the lens of quantum vacuum fluctuations and the Casimir effect. We explore how partial variable assignments can be treated as physical microstates in an energy landscape, with "almost-satisfying" configurations experiencing attractive Casimir-like forces that cause coagulation into stable solution clusters.
